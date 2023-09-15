@@ -1,0 +1,22 @@
+{
+  "name": "cypress-sqa-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Wilmar Ramirez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-xpath": "^2.0.1",
+    "node-xlsx": "^0.23.0"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions": true
+  }
+}
